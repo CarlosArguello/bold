@@ -23,6 +23,7 @@ const useSales = () => {
 
 	useEffect(() => {
 		setTotalPayment(totalPaymentSales())
+		// eslint-disable-next-line
 	}, [filteredSales])
 
 	useEffect(() => {
@@ -33,6 +34,7 @@ const useSales = () => {
 		)
 
 		setFilteredSales(filteredByTransaction)
+		// eslint-disable-next-line
 	}, [activeFilterByTransaction, activeFilterByDate])
 
 	const filterByDate = (scopeSales, byDate) =>

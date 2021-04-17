@@ -11,6 +11,7 @@ const SalesDateTab = ({ handleDate }) => {
 
 	useEffect(() => {
 		handleDate(dateSales[activeTab].filter)
+		// eslint-disable-next-line
 	}, [activeTab])
 
 	const dateSales = [

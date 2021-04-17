@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+import React from "react"
 
 import BasicLayout from "common/layouts/basicLayout"
 import Card from "common/components/Card"
