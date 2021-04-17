@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+$primary: #111e6c !important;
+$secondary: #ef434e !important;
+$darkGray: #323232 !important;
+$lightGray: #969696 !important;
+$gray: #e5e7ef !important;
+$light: #ffffff !important;
+$primaryGradient: linear-gradient(
+	90deg,
+	rgba(17, 30, 108, 1) 0%,
+	rgba(64, 38, 102, 1) 54%,
+	rgba(167, 55, 88, 1) 100%
+);
+$secondaryGradient: linear-gradient(
+	90deg,
+	rgba(125, 48, 94, 1) 15%,
+	rgba(146, 52, 91, 1) 72%,
+	rgba(166, 55, 88, 1) 82%,
+	rgba(203, 61, 83, 1) 100%
+);
+
+* {
+	font-family: "Montserrat" !important;
+}
+
+._bg-primary {
+	background-color: $primary;
+}
+
+._text-primary {
+	color: $primary;
+}
+
+._bg-secondary {
+	background-color: $secondary;
+}
+
+._text-secondary {
+	color: $secondary;
+}
+
+._bg-gray {
+	background-color: $gray;
+}
+
+._text-gray {
+	color: $gray;
+}
+
+._bg-light-gray {
+	background-color: $lightGray;
+}
+
+._text-light-gray {
+	color: $lightGray;
+}
+
+._bg-dark-gray {
+	background-color: $darkGray;
+}
+
+._text-dark-gray {
+	color: $darkGray;
+}
+
+._text-light {
+	color: $light;
+}
+
+._bg-light {
+	background-color: $light;
+}
+
+._gd_primary {
+	background: $primaryGradient;
+}
+
+._gd_secondary {
+	background: $secondaryGradient;
+}
+
+._text_gd_secondary {
+	background: $secondaryGradient;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+input,
+button {
+	outline: none !important;
+}
+
+@media only screen and (max-width: 1000px) {
+	._gd_primary {
+		background: $primary;
+	}
+}
